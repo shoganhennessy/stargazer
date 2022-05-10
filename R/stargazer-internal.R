@@ -1990,7 +1990,7 @@ function(libname, pkgname) {
       
       if (!is.character(s)) { return("") }
       if (is.null(s)) { return("") }
-      if (is.na(s)) { return("") }
+      #if (is.na(s)) { return("") }
       if (s=="") { return("") }
       if (length(s) > 1) { return("") }
       
